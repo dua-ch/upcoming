@@ -1,0 +1,926 @@
+/* general colors */
+
+a {
+    color: orange;
+}
+
+body {
+    background: #ededed;
+    color: #8a0c0a;
+}
+
+button {
+    background: transparent;
+    color: #fff;
+}
+
+input,
+textarea,
+.post_input_container {
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6 !important;
+    color: #8a0c0a;
+}
+
+
+/* login box */
+
+.not_member {
+    background: #ededed;
+    color: #8a0c0a;
+}
+
+
+/* cookie box */
+
+.cookie_wrap {
+    background: #ddd;
+    color: #8a0c0a;
+}
+
+
+/* back mains colors */
+
+.back_theme {
+    background: #fff;
+    color: #fff;
+}
+
+.back_dark {
+    background: #a22459;
+    color: #fff;
+}
+
+.back_med {
+    background: #ededed;
+    color: #666;
+}
+
+.back_lite {
+    background: #f3f3f3;
+    color: #666;
+}
+
+.back_xlite {
+    background: #fff;
+    color: #666;
+}
+
+
+/* button colors */
+
+.theme_btn {
+    background: rgb(221, 68, 68);
+    color: #fff;
+}
+
+.default_btn {
+    background: #a22459;
+    color: #fff;
+}
+
+.dark_selected {
+    background: rgb(190, 6, 6);
+    color: #fff;
+}
+
+.ok_btn {
+    background: #74b20e;
+    color: #fff;
+}
+
+.warn_btn {
+    background: orange;
+    color: #fff;
+}
+
+.delete_btn {
+    background: #cc0000;
+    color: #fff;
+}
+
+.sub_btn {
+    background: #888;
+    color: #fff;
+}
+
+
+/* input option background colors */
+
+.input_wrap {
+    background: #fff;
+    border-top: 1px solid #ededed;
+}
+
+.input_item {
+    color: #999;
+}
+
+
+/* background colors */
+
+.top_background,
+.background_header,
+.chat_head,
+.panel_top,
+.emo_head,
+.modal_top {
+    background: #a22459;
+    color: #fff;
+}
+
+.background_box {
+    background: #fff;
+    color: #666;
+}
+
+
+/* modal */
+
+.modal_menu,
+.tab_menu {
+    background: #f3f3f3;
+    color: #555;
+}
+
+.modal_selected,
+.tab_selected {
+    background: #a22459;
+    color: #fff;
+}
+
+.modal_back {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*panel selected */
+
+.panel_selected {
+    background: #ededed;
+}
+
+
+/* reg menu */
+
+.reg_menu {
+    color: #444;
+}
+
+.reg_selected {
+    background: #ededed;
+    color: #444;
+}
+
+
+/* menu icon */
+
+.sub_menu_icon,
+.menui,
+.menuo,
+.menup {
+    color: rgb(92, 8, 8);
+}
+
+
+/* outside menu */
+
+.sub_menu_item,
+.fmenu_item,
+.avitem {
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+    color: #666;
+}
+
+.sub_menu_item:hover,
+.sub_menu_item:hover>.sub_menu_icon,
+.fmenu_item:hover,
+.avitem:hover {
+    background: #ededed;
+    color: #666 !important;
+}
+
+
+/* inside menu */
+
+.elem_in,
+.aclist,
+.left_drop_item,
+.page_drop_item {
+    background: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+}
+
+.elem_in:hover,
+.aclist:hover,
+.left_drop_item:hover,
+.page_drop_item:hover {
+    background: #e6e6e6;
+    color: #666;
+}
+
+
+/* page menu */
+
+.page_menu_wrapper {
+    background: #fff;
+}
+
+.page_menu_item {
+    border-bottom: 1px solid #ededed;
+}
+
+.page_menu_item:hover {
+    background: #ededed;
+    color: #666;
+}
+
+.page_selected {
+    color: rgb(110, 7, 7) !important;
+}
+
+
+/* text error colors */
+
+.error {
+    color: red;
+}
+
+.success {
+    color: #74b20e;
+}
+
+.warn {
+    color: orange;
+}
+
+
+/* logs color private and main chat */
+
+.log2 {
+    background: #f8f8f8;
+}
+
+.target_private {
+    color: #fff;
+    background: rgb(136, 4, 4);
+}
+
+.hunter_private {
+    color: rgb(119, 11, 11);
+    background: #fff;
+}
+
+
+/* text color  & date */
+
+.sub_text,
+.date,
+.listing_text,
+.docu_description {
+    color: #888;
+}
+
+.sub_dark {
+    color: #aaa;
+}
+
+.input_text,
+.logs_date,
+.pdate,
+.ptdate,
+.cclear,
+.cdate {
+    color: rgb(0, 0, 0);
+}
+
+.theme_color {
+    color: rgb(100, 9, 9);
+}
+
+.liked {
+    background: #ededed;
+    color: #666;
+}
+
+.default_color {
+    color: #a22459;
+}
+
+.user_count {
+    color: #fff;
+}
+
+.shadow_text {
+    text-shadow: 1px 1px #000;
+}
+
+.system_text {
+    background: #ededed;
+    color: #666;
+}
+
+.bustate {
+    color: #999;
+}
+
+
+/* notification colors */
+
+.bnotify {
+    background: red;
+    color: #fff;
+}
+
+
+/* elements */
+
+.element_color,
+.player_options,
+.page_element,
+#private_box,
+.chat_side_panel,
+#side_menu,
+.modal_in {
+    background: #fff;
+    color: #444;
+}
+
+.background_chat {
+    background: #fff;
+}
+
+.chat_panel {
+    background: #fff;
+}
+
+
+/* shadow */
+
+.add_shadow,
+.page_element,
+#private_box,
+.page_menu_wrapper,
+.chat_side_panel,
+#side_menu,
+.sub_menu,
+.fmenu {
+    box-shadow: 0 0 1px 1px #ddd;
+}
+
+
+/* no view elements */
+
+.noview {
+    background: #f1f1f1;
+    border-bottom: 1px solid #fff;
+}
+
+
+/* borders css */
+
+.border_right,
+#chat_left {
+    border-right: 1px solid #ededed;
+}
+
+.border_left,
+#chat_right {
+    border-left: 1px solid #ededed;
+}
+
+.border_bottom,
+.label_line,
+.panel_bar,
+.side_bar,
+.listing_element,
+.listing_half_element,
+.post_element,
+.list_element,
+.listing_reg,
+.left_list,
+.user_item,
+.user_item_custom,
+.box_title {
+    border-bottom: 1px solid #ededed;
+}
+
+.border_top {
+    border-top: 1px solid #ededed;
+}
+
+.full_border {
+    border: 1px solid #ededed;
+}
+
+
+/* list element */
+
+.sub_list_item,
+.sub_item,
+.sub_half_item,
+.reply_item,
+.ulist_item,
+.sub_list {
+    background: #f3f3f3;
+    color: #666;
+}
+
+.sub_list_item:hover,
+.sub_item:hover,
+.sub_half_item:hover,
+.ulist_item:hover {
+    background: #ededed;
+}
+
+
+/* slider */
+
+.boom_slider .ui-widget-content {
+    background: #ededed;
+}
+
+.boom_slider .ui-state-default {
+    background: #999 !important;
+}
+
+.boom_slider .ui-state-active {
+    background: #999 !important;
+}
+
+.boom_slider .ui-slider-range {
+    background: #ccc;
+}
+
+
+/* select box color */
+
+.selectboxit-list,
+.selectboxit-btn {
+    background-color: #f2f2f2;
+    color: #666;
+    border: 1px solid #e6e6e6 !important;
+}
+
+
+/* background of select box */
+
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor {
+    background-color: #ededed;
+    color: #666;
+}
+
+
+/* color of sub menu hover */
+
+.selectboxit-default-arrow {
+    border-top: 4px solid #666;
+}
+
+.selectboxit-btn.selectboxit-enabled:hover,
+.selectboxit-btn.selectboxit-enabled:focus,
+.selectboxit-btn.selectboxit-enabled:active {
+    background: #f2f2f2;
+    color: #666;
+}
+
+
+/* background selected hover */
+
+.selectboxit-options {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+
+/* background color of the options */
+
+.selectboxit-list .selectboxit-option-anchor {
+    color: #666;
+}
+
+
+/* color of sub menu item */
+
+
+/* user color and special user color */
+
+.offline {
+    opacity: 0.5;
+}
+
+.user {
+    color: #666;
+}
+
+.chat_system {
+    color: #999;
+}
+
+
+/* list icon colors */
+
+.boy {
+    border-color: #fff;
+}
+
+.girl {
+    border-color: #ff99ff;
+}
+
+.nosex {
+    border-color: #ccc;
+}
+
+
+/* file music and upload */
+
+.file_color,
+.file_color a {
+    background: #fff;
+    color: #fff;
+}
+
+.audio_color {
+    background: #a22459;
+    color: #fff;
+}
+
+.song_title {
+    background: #03647d;
+    color: #fff;
+}
+
+.audio_progress {
+    background: #fff;
+}
+
+.audio_ball {
+    background: #fff;
+}
+
+
+/* warning box */
+
+.boom_warning {
+    color: #8a6d3b;
+    background: #fcf8e3;
+    border: 1px solid #faebcc;
+}
+
+.boom_error {
+    background: #f2dede;
+    color: #a94442;
+    ;
+    border: 1px solid #ebccd1;
+}
+
+.boom_success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+}
+
+.boom_neutral {
+    color: #31708f;
+    background: #d9edf7;
+    border: 1px solid #bce8f1;
+}
+
+
+/* admin box */
+
+.sp_box {
+    background: #ededed;
+    color: #666;
+}
+
+.sp_icon {
+    background: rgb(151, 22, 22);
+    color: #fff;
+}
+
+
+/* special log */
+
+.topic_log {
+    background: #d9f2e6;
+    color: #0d261a;
+}
+
+.seen {
+    background: #ffe6f2;
+    color: #330019;
+}
+
+
+/* custom */
+
+.login_sub_text,
+.login_title_text,
+.login_register_text {
+    text-shadow: 1px 1px 1px #666;
+}
+
+
+/* Ex Project 4.0 */
+
+
+/* chat_message */
+
+.ch_logs.log2 .my_text {
+    display: block;
+    padding: 10px 4px;
+    overflow: visible;
+    width: calc(100% - 25px) !important;
+    position: relative;
+    float: left;
+    background-color: #f3f3f3;
+    border-radius: .4em;
+    left: 5px;
+    box-shadow: 0 0 3px #80808069;
+}
+
+.log2 {
+    background: transparent;
+}
+
+.ch_logs.log2 .my_text:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 15px 14px;
+    border-color: transparent #ffffff;
+    display: block;
+    margin-top: -20px;
+    margin-right: -14px;
+}
+
+.ch_logs .my_text {
+    display: block;
+    padding: 10px 4px;
+    overflow: visible;
+    width: calc(100% - 25px) !important;
+    position: relative;
+    float: left;
+    background-color: #eff4ff;
+    border-radius: .4em;
+    left: 5px;
+    box-shadow: 0 0 3px #80808069;
+}
+
+.ch_logs .my_text:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 15px 14px;
+    border-color: transparent #ffffff;
+    display: block;
+    margin-top: -20px;
+    margin-right: -14px;
+}
+
+
+/* Ex. New year theme */
+
+.chat_footer,
+#chat_head {
+    background: url(https://media.istockphoto.com/photos/beautiful-babys-breath-border-on-the-romantic-pink-background-picture-id1021650986);
+    background-size: auto;
+    background-position: 100% 87%;
+    color: white;
+}
+
+#my_menu {
+    background: linear-gradient(to top, #6d0a0b00, #fc8dc69c);
+    outline: 1px dashed #5f5f66;
+    outline-offset: -5px;
+}
+
+#menu_container_inside {
+    background: url(https://media.istockphoto.com/photos/beautiful-babys-breath-border-on-the-romantic-pink-background-picture-id1021650986);
+    background-size: auto;
+    background-position: 100% 71%;
+}
+
+.sec_chat_head {
+    background: url(https://media.istockphoto.com/photos/beautiful-babys-breath-border-on-the-romantic-pink-background-picture-id1021650986);
+    outline: 1px dashed #d29ba4;
+    outline-offset: -5px;
+    background-size: auto;
+    background-position: 100% 71%;
+}
+
+#inside_wrap_chat {
+    background: url(https://img5.goodfon.com/wallpaper/nbig/6/ad/tender-white-flowers-pink-background-rozovyi-fon-belye-tsvet.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.background_box {
+    background: linear-gradient(to top, #ffe5e900, #ffd6ee91) !important;
+    color: #666;
+}
+
+#chat_right,
+#chat_left {
+    background: url(https://i.pinimg.com/474x/fe/2a/b9/fe2ab9eb33046615c53c84e18b4d8d67.jpg);
+    box-shadow: inset 0 0 50px 60px #f6ebf680;
+    background-position: 0 100%;
+}
+
+.top_background,
+.background_header,
+.panel_top,
+.emo_head,
+.modal_top {
+    background: url(https://media.istockphoto.com/photos/beautiful-babys-breath-border-on-the-romantic-pink-background-picture-id1021650986);
+    background-size: auto;
+    background-position: 100% 94%;
+    color: white;
+    box-shadow: inset 0 0 10px 10px #ffffff73;
+}
+
+.head_option,
+.chat_footer_item,
+#main_mob_menu,
+.head_logo,
+.chat_head_logo {
+    text-shadow: 0 0px 5px #cecece;
+    background: #e7e4e191;
+    border-radius: 2px;
+    color: #9a0d34;
+}
+
+.left_item,
+#right_panel_bar {
+    background: #ffffff85;
+}
+
+.user_item {
+    background-color: #ffffffdc;
+    border-radius: 25px 0;
+    margin-bottom: 5px;
+    border: 1px dashed;
+    box-shadow: 0 1px 5px gray;
+}
+
+.my_notice {
+    outline: 1px dashed #ffbddc;
+    text-shadow: 0px 0px 3px #6b6b6b;
+    outline-offset: -2px;
+    color: #fff;
+    background: linear-gradient(to top, #e94d8c, #ab2c6c);
+    padding: 4px 11px;
+    display: inline-block;
+    line-height: 1em;
+    margin-top: 2px;
+    border-radius: 3px;
+    font-weight: normal;
+}
+
+.my_text {
+    background: linear-gradient(to top, #ecc8d436, transparent);
+}
+
+.santa_bg {
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
+    height: 30px;
+    width: 42px;
+    background-image: url(https://webstockreview.net/images/transparent-flower-png-9.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.santa_hat {
+    position: absolute;
+    top: -12px;
+    right: -5px;
+    height: 30px;
+    width: 42px;
+}
+
+.santa_decor {
+    position: absolute;
+    top: 28px;
+    right: -5px;
+    height: auto;
+    width: 50px;
+}
+
+.santa_decor_list {
+    position: absolute;
+    top: 23px;
+    right: -4px;
+    height: auto;
+    width: 45px;
+}
+
+.santa_hat_list {
+    position: absolute;
+    top: -12px;
+    right: -7px;
+    height: 30px;
+    width: 42px;
+}
+
+#container_news,
+#container_wall {
+    background: linear-gradient(to top, #f2f2f2, #e6d7ea);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px -2px grey;
+    padding: 0px 10px;
+}
+
+.empty_zone {
+    background-color: #ffffff85;
+}
+
+.empty_zone_text {
+    color: #8a0c0a;
+}
+
+.left_list {
+    background: linear-gradient(to top, #ecc8d47a, transparent);
+    margin-bottom: 5px;
+}
+
+.left_item_text,
+.left_item {
+    text-shadow: 0 0px 3px #f3d5b8;
+    font-weight: 600;
+    color: #c43a7a;
+    font-size: 16px;
+}
+
+.user_count {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-image: url(https://lh3.googleusercontent.com/proxy/Q0n1m2u_anJG63Esnas0oEt9tR5ohWL9aOX3Bgfj4W6Zv9raDAuTf4qSC5BISuLFmInSXX7R72vmTwH32PT3ahnluRcoAdOF4ZP2qJ2pH8sAQ5hWelmlCBl8L7OIAK8tUMeCuA6onhugxkzeEpMa2xCixybCPDWnq7-GADYT);
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    outline: 2px dashed;
+    outline-offset: -8px;
+    outline-color: #dfccda;
+    box-shadow: 0px 0px 5px -1px #514961;
+}
+
+#container_user {
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 15px 15px 15px 15px;
+}
+
+.santa_list {
+    height: auto;
+    width: 330px;
+    position: absolute;
+}
+
+.santa_left_list {
+    height: auto;
+    width: 250px;
+    position: absolute;
+}
+
+.chat_left_menu_wrap {
+    margin-top: 10px;
+}
+
+.onair_color {
+    color: #7b077d;
+    text-shadow: 0 1px 0 rgb(255, 214, 214);
+    font-size: 18px;
+}
+
+.online_color {
+    color: #7b077d;
+    text-shadow: 0 1px 0 rgb(255, 214, 214);
+    font-size: 18px;
+}
+
+.offline_color {
+    color: #646464;
+    text-shadow: 0 1px 0 rgb(255, 214, 214);
+    font-size: 18px;
+}
+
+.ex_btn {
+    background: #7b077d;
+    color: white;
+    border-radius: 25px 0;
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "sinergi/browser-detector": "^6.1",
+        "mobiledetect/mobiledetectlib": "^2.8",
+		"matomo/device-detector": "^6.0"
+    }
+}

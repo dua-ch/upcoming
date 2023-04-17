@@ -1,0 +1,84 @@
+/*===============================================*
+ |                                               |
+ |   Development      :  [AMEER_PS]              |
+ |                                               |
+ |   addon name       :  [LIVE_STREAM]           |
+ |                                               |
+ |   Version          :  [1.0]                   |
+ |                                               |
+ |   Codychat version :  [CODYCHAT 3.6]          |
+ |                                               |
+ *===============================================*/
+@media screen and (max-width:768px){
+#live_modal { 
+	left:18px; 
+	right:18px; 
+	top:41px; 
+	margin-top:0 !important; 
+	margin-left:0 !important; 
+	}
+	#live_modal_content{
+	width: auto;
+    height: auto;
+    padding: 10px;
+    overflow: hidden;
+    border-top: none;
+    transition: all ease 0.3s;
+	}
+	.yildiz_host_live_stream{
+	height: 253px ;
+	width: 100%;
+	background: #1d2c33;
+}
+}
+.img_live_u { cursor:pointer; width:32px; height:32px; display:block; border-radius:50%; }
+
+.hidelive{
+	display:none;
+}
+.yildiz_host_live_stream{
+	height: 330px !important;width: 100%;background: #1d2c33;
+}
+ .live_modal_out{
+    position: fixed;
+    z-index: 1000;
+    cursor: pointer;
+	display: block;
+	background-color:transparent;
+	overflow:hidden;
+	width:auto;
+	height:auto;
+}
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 69%);
+    border-radius: 30px;
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+.live_strem {
+	-webkit-animation: shadow-drop-2-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: shadow-drop-2-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}

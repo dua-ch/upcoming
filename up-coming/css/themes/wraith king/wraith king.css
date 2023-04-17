@@ -1,0 +1,206 @@
+/** 
+ * style Sheet for sanctuarychatphilippines.chat created by habs
+ * 11-17-2020
+ **/
+
+/* general colors */
+a {color:white;}
+body {background:#000000; color:#50d971}
+button { background:0 0; color:#fff; }
+input, textarea, .post_input_container { color:#50d971; background:#000000; border:1px solid d!important; }
+
+/* login box */
+.not_member { background:#000000; color:#fff; }
+
+/* cookie box */
+.cookie_wrap { background:#333; color:#fff; }
+
+/* back mains colors */
+.back_theme { background:#352d35; color:#fff; }
+.back_dark { background:#111; color:#fff; }
+.back_med { background:#ededed; color:#666; }
+.back_lite { background:#f3f3f3; color:#666; }
+.back_xlite { background:#000; color:#fff; }
+
+/* button colors */
+.theme_btn { background:black; color:#fff; }
+.default_btn { background:#000000; color:#50d971; }
+.dark_selected { background:#9a719b30; color:#fff; }
+.ok_btn { background:black; color:#fff; }
+.warn_btn { background:; color:#fff; }
+.delete_btn { background:#740b1c; color:#fff; }
+.sub_btn { background:#888; color:#fff; }
+
+
+/* background colors */
+.top_background, .background_header, .chat_head, .chat_footer, .panel_top, .emo_head, .modal_top { background:black; color:#fff; }
+.background_box { background:0 0; color:#ffffff;}
+
+/* modal */
+.modal_menu, .tab_menu { background:#c28737; }
+.modal_selected, .tab_selected { background:black; }
+.modal_back { background-color:rgba(13, 13, 13, .8); }
+
+/*panel selected */
+.panel_selected { background:black; }
+
+/* reg menu */
+.reg_menu { color:#666; }
+.reg_selected {  background:#180628; color:#fff; }
+
+/* menu icon */
+.page_menu_icon, .sub_menu_icon, .menui { color:#50d971; }
+
+/* outside menu */
+.sub_menu_item, .avitem { border-bottom:1px solid #00000026; background:black; color:; }
+.sub_menu_item:hover, .sub_menu_item:hover > .sub_menu_icon, .avitem:hover { background:#1a0c1ae0; color:#fff; }
+
+/* inside menu */
+.elem_in, .aclist, .status_option, .left_drop_item, .page_drop_item { background:#000000; color:#bb; border-bottom:1px solid #eab8e414 }
+.elem_in:hover, .aclist:hover, .status_option:hover, .left_drop_item:hover, .page_drop_item:hover { bbackground:#212121; color:yellow }
+
+/* page menu */
+.page_menu_wrapper { background:#191919; }
+.page_menu_item { border-bottom:1px solid #222; }
+.page_menu_item:hover, .page_menu_item:hover > .page_menu_icon { background:#000; color:#fff; }
+.page_selected { color:#03add8 !important; }
+
+/* text error colors */
+.error  { color:red; }
+.success { color:#74b20e; }
+.warn { color:orange; }
+
+/* logs color private and main chat */
+.log2 { background:0 0; background-image:linear-gradient(to right, #00000000, #00000000); }
+.target_private {color:white; background:black; }
+.hunter_private {color:black; background:white; }
+
+/* text color  & date */
+.sub_text, .date, .listing_text, .docu_description  { color:#888; }
+.sub_dark { color:#aaa; }
+.input_text, .logs_date, .pdate, .ptdate, .cclear, .cdate { color:#f1f3ff; }
+.theme_color { color:white;}
+.liked  { background:#333; }
+.default_color { color:#333; }
+.user_count  { color:#666;}
+.my_notice {
+    color: black;
+    background: #fff; padding:3px 10px; display:inline-block; line-height:1em; margin-top:2px; border-radius:20px; font-weight:normal; }
+.shadow_text { text-shadow:1px 1px #000; }
+.system_text { background:#222; color:#888; }
+.bustate { color:#ffffff80; }
+
+/* notification colors */
+.bnotify {
+    background: #ffb200;
+    color: #000;
+}
+
+/* elements */ 
+.element_color, .player_options, .page_element, #private_box, .chat_side_panel, #side_menu, .modal_in { background:#000000; color:#dfbb70; }
+.background_chat { background:0 0; }
+.chat_panel { background:#000000; }
+
+/* shadow */
+.add_shadow, .page_element, #private_box, .page_menu_wrapper, .chat_side_panel, #side_menu, .sub_menu { box-shadow:0 0 1px 1px #1e001f42 }
+
+/* no view elements */
+.noview { background:#0404047d; }
+
+/* list element */
+.sub_list_item, .sub_half_item, .reply_item, .ulist_item, .sub_list { background:#000000; color:#4159d0; }
+.sub_list_item:hover , .sub_half_item:hover, .ulist_item:hover { background:#000; }
+
+/* slider */
+.boom_slider .ui-widget-content { background: #333; }
+.boom_slider .ui-state-default { background: #ccc !important; }
+.boom_slider .ui-state-active { background: #ccc !important; }
+.boom_slider .ui-slider-range { background:#666; }
+
+/* select box color */
+.selectboxit-list, .selectboxit-btn { background-color:#20091f94; border:1px solid #b99abd1f; color:#fff } /* background of select box */
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor { background-color: #10010fbf; color:#fff; } /* color of sub menu hover */
+.selectboxit-default-arrow { border-top: 4px solid #666; }
+.selectboxit-btn.selectboxit-enabled:hover, .selectboxit-btn.selectboxit-enabled:focus, .selectboxit-btn.selectboxit-enabled:active { background:#10010fbf; color:#fff; } /* background selected hover */
+.selectboxit-options { background:#1a0c1ae0; color:#fff; } /* background color of the options */
+.selectboxit-list .selectboxit-option-anchor { color:#fff; } /* color of sub menu item */
+
+/* user color and special user color */
+.offline { opacity:0.4; }
+.user { color:#777; }
+.chat_system { color:#666; }
+
+/* list icon colors */
+.boy { border-color:#228dff;     linear-gradient(to right, red, purple); }
+.girl { border-color:#ff00de;}
+.nosex { border-color:white; }
+
+/* file music and upload */
+.file_color, .file_color a { background:white; color:black; }
+.audio_color { background:white; color:black; }
+.song_title { background:0 0; color:#fff; }
+.audio_progress { background:#fff; }
+.audio_ball { background:white;  color:black ; }
+
+/* warning box */
+.boom_warning { color:#fff2cc; background:#664d00; border:1px solid #997300; }
+.boom_error { background:#800000; color:#ffcccc;; border:1px solid #b30000; }
+.boom_success { color:#c6ecc6; background:#206020; border:1px solid #2d862d; }
+.boom_neutral { color:#ccf2ff; background:#007399; border:1px solid #0099cc; }
+
+/* admin box */
+.sp_box { background: #000000; color: #fff;}
+.sp_icon {
+    background: #fff;
+    color: #212121;
+}
+
+/* special log */
+.topic_log {
+    background: #ffffff66;
+    color: #212121;
+}
+.seen { background:#1a000c; color:#ffe6f2; }
+
+/* custom */
+.background_header { border-bottom:1px solid #262626;  }
+.modal_in { border:1px solid #100114; }
+
+/* scrollbar */
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:black; }
+::-webkit-scrollbar-thumb { background:#50d971; }
+::-webkit-scrollbar-thumb:hover { background:black; }
+
+/* random things */
+.avlist { background:#000000f2; }
+.invisible, .liked, .unliked { color:black; }
+.ch_logs { border-top:1px solid #d8a7d614; }
+.cleft2, .cright2 { background:black !important; } /* may not do anything */
+.background_header, .chat_footer, .chat_head, .emo_head, .modal_top, .panel_top, .top_background {color:#50d971}
+.sub_list  {background:#23162769; color:#fff; }
+#set_user_about { background-color:#c2873773 !important; }
+#main_input_extra { background: #1a001df0; }
+#main_emoticon, #private_emoticon { background:#000000; }
+#private_box { background:#7d7a7a; }
+img#main_logo { filter: contrast(1.5);}
+#mobile_main_menu { background:#1a0c1ae0; }
+body::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1000;
+    background-image:url("https://www.wallpapers13.com/wp-content/uploads/2017/05/Wraith-King-Dota-2-heroes-Abilities-Mortal-strike-Reincarnation-Wraithfire-blast-Vampiric-aura-Roles-Initiator-Support-Carry-Disabler-Durable-Wallpaper-HD-1920x1080-1024x576.jpg");
+    background-size:cover; 
+    background-position:center, center
+}
+div.background_chat::before {
+    content:"";
+    position:fixed;
+    z-index:-1;
+    width:100%;
+    height:100%
+}

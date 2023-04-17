@@ -1,0 +1,47 @@
+html {
+    background-image: url(55.jpg)
+}
+
+body {
+    background-color: rgba(255, 255, 255, .75)
+}
+
+.background_header,
+.chat_head,
+.chat_footer,
+.top_background,
+.panel_top,
+.emo_head,
+.modal_top,
+#private_top,
+#submit_button,
+.default_btn,
+.modal_selected {
+    background: #6a037e
+}
+
+.menui,
+.theme_color,
+.default_color,
+.input_item {
+    color: #6a037e
+}
+
+input,
+textarea,
+.post_input_container,
+.full_input,
+.full_textarea {
+    border: 1px solid #6a037e
+}
+
+.border_bottom,
+.panel_bar,
+.listing_element,
+.post_element,
+.list_element,
+.user_item,
+.ulist_item,
+.box_title {
+    border-bottom: 1px solid rgba(132, 23, 83, 0.2)
+}

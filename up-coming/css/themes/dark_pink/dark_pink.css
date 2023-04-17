@@ -1,0 +1,198 @@
+/* general colors */
+a {color:orange;}
+body {background:#ededed; color:#de50c1;}
+button { background:transparent; color:#000; }
+input, textarea, .post_input_container { background:#f2f2f2; border:1px solid #e6e6e6 !important; color:#de50c1; }
+
+/* login box */
+.not_member { background:#ededed; color:#666; }
+
+/* cookie box */
+.cookie_wrap { background:#ddd; color:#666; }
+
+/* back mains colors */
+.back_theme { background:#03add8; color:#000; }
+.back_dark { background:#012832; color:#000; }
+.back_med { background:#ededed; color:#666; }
+.back_lite { background:#f3f3f3; color:#666; }
+.back_xlite { background:#000; color:#666; }
+
+/* button colors */
+.theme_btn { background:#03add8; color:#000; }
+.default_btn { background:#de50c1; color:#000000; }
+.dark_selected { background:#03add8; color:#000; }
+.ok_btn { background:#74b20e; color:#000; }
+.warn_btn { background:orange; color:#000; }
+.delete_btn { background:#cc0000; color:#000; }
+.sub_btn { background:#888; color:#000; }
+
+/* input option background colors */
+.input_wrap { background:#000; border-top:1px solid #00000000; }
+.input_item { color:#de50c1; }
+
+/* background colors */
+.top_background, .background_header, .chat_head, .chat_footer, .panel_top, .emo_head, .modal_top {background: #000000;color:#de50c1;}
+.background_box { background:#000; color:#666;}
+
+/* modal */
+.modal_menu, .tab_menu { background:#f3f3f3; color:#555; }
+.modal_selected, .tab_selected { background:#012832; color:#000; }
+.modal_back { background-color:rgba(0,0,0,0.6); }
+
+/*panel selected */
+.panel_selected { background:#325a87; }
+
+/* reg menu */
+.reg_menu { color:#444; }
+.reg_selected {  background:#ededed; color:#444; }
+
+/* menu icon */
+.sub_menu_icon, .menui, .menuo, .menup { color:#de50c1; }
+
+/* outside menu */
+.sub_menu_item, .fmenu_item, .avitem { border-bottom:1px solid #ededed; background:#000; color:#666;  }
+.sub_menu_item:hover, .sub_menu_item:hover > .sub_menu_icon, .fmenu_item:hover, .avitem:hover { background:#ededed; color:#666 !important; }
+
+/* inside menu */
+.elem_in, .aclist, .left_drop_item, .page_drop_item  { background:#f3f3f3; border-bottom:1px solid #ddd; }
+.elem_in:hover, .aclist:hover, .left_drop_item:hover, .page_drop_item:hover { background:#e6e6e6; color:#666; }
+
+/* page menu */
+.page_menu_wrapper { background:#000; }
+.page_menu_item { border-bottom:1px solid #ededed; }
+.page_menu_item:hover { background:#ededed; color:#666; }
+.page_selected { color:#03add8 !important; }
+
+/* text error colors */
+.error { color:red; }
+.success { color:#74b20e; }
+.warn { color:orange; }
+
+/* logs color private and main chat */
+.ch_logs {
+    background:#000;
+    margin-bottom: 0px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    /* border-left: solid #235b81; */
+    border-left-width: 3px;
+}
+.ch_logs.log2 {
+    /* background: #000000; */
+    margin-bottom: 0px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    /* border-left: solid #000000; */
+    border-left-width: 3px;
+}
+.target_private {color: #fffdfd;background: #000000;border: 1px solid #de50c1;}
+.hunter_private {color: #000;background: #f3f7fa;border: 1px solid #de50c1;}
+
+
+/* text color  & date */
+.sub_text, .date, .listing_text, .docu_description { color:#888; }
+.sub_dark { color:#aaa; }
+.input_text, .logs_date, .pdate, .ptdate, .cclear, .cdate { color:#ccc; }
+.theme_color { color:#03add8; }
+.liked  { background:#ededed; color:#666; }
+.default_color { color:#012832; }
+.user_count {display:table;/* table-layout:fixed; */width:100%;padding:10px;/* font-size:13px; */font-weight:normal;font-weight:bold;background-color: rgb(131, 77, 36);/* background-image: url(https://i.imgur.com/eqGvZEC.gif); */color: white;background: linear-gradient(to right, #135667, #3b5b91);font-size: 13px;border-radius: 8px 8px 0 0;text-align: center;margin-top: 5px;font-family: cairo;}
+.my_notice { color:#000; background:#03add8; padding:3px 10px; display:inline-block; line-height:1em; margin-top:2px; border-radius:20px; font-weight:normal; }
+.shadow_text { text-shadow:1px 1px #000; }
+.system_text { background:#ededed; color:#666; }
+.bustate {color: #2673b1;font-family: sans-serif;font-weight: bold;font-size: 9px; }
+
+/* notification colors */
+.bnotify { background:red; color:#000; }
+
+/* elements */ 
+.element_color, .player_options, .page_element, #private_box, .chat_side_panel, #side_menu, .modal_in { background:#000; color:#444; }
+.background_chat { background:#000; }
+.chat_panel { background:#000; }
+
+/* shadow */
+.add_shadow, .page_element, #private_box, .page_menu_wrapper, .chat_side_panel, #side_menu, .sub_menu, .fmenu { box-shadow:0 0 1px 1px #101010; }
+
+/* no view elements */
+.noview { background:#f1f1f1; border-bottom:1px solid #000; }
+
+/* borders css */
+.border_right, #chat_left { border-right:1px solid #000000; }
+.border_left, #chat_right { border-left:1px solid #000000; }
+.border_bottom, .label_line, .panel_bar, .side_bar,  .listing_element, .listing_half_element, .post_element, .list_element, .listing_reg, .left_list, .user_item, .user_item_custom, .box_title { border-bottom:1px solid #000000; }
+.border_top{ border-top:1px solid #000000; }
+.full_border { border:1px solid #000000; }
+
+/* list element */
+.sub_list_item, .sub_item, .sub_half_item, .reply_item, .ulist_item, .sub_list { background:#f3f3f3; color:#666; }
+.sub_list_item:hover, .sub_item:hover, .sub_half_item:hover, .ulist_item:hover { background:#ededed; }
+
+/* slider */
+.boom_slider .ui-widget-content { background: #ededed; }
+.boom_slider .ui-state-default { background: #999 !important; }
+.boom_slider .ui-state-active { background: #999 !important; }
+.boom_slider .ui-slider-range { background:#ccc; }
+
+/* select box color */
+.selectboxit-list, .selectboxit-btn { background-color: #f2f2f2; color:#666;  border:1px solid #e6e6e6 !important; } /* background of select box */
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor { background-color: #ededed; color:#666; } /* color of sub menu hover */
+.selectboxit-default-arrow { border-top: 4px solid #666; }
+.selectboxit-btn.selectboxit-enabled:hover, .selectboxit-btn.selectboxit-enabled:focus, .selectboxit-btn.selectboxit-enabled:active { background:#f2f2f2; color:#666; } /* background selected hover */
+.selectboxit-options { background:#000; border:1px solid #ccc; } /* background color of the options */
+.selectboxit-list .selectboxit-option-anchor { color:#666; } /* color of sub menu item */
+
+/* user color and special user color */
+.offline { opacity:0.5; }
+.user { color:#666; }
+.chat_system {color: #e40606;font-weight: bold;}
+
+/* list icon colors */
+.boy { border-color:#03add8; }
+.girl { border-color:#ff99ff;}
+.bayo { border-color:#923434;}
+.nosex { border-color:#ccc; }
+
+/* file music and upload */
+.file_color, .file_color a { background:#03add8; color:#000; }
+.audio_color { background:#012832; color:#000; }
+.song_title { background:#03647d; color:#000; }
+.audio_progress { background:#000; }
+.audio_ball { background:#03add8; }
+
+/* warning box */
+.boom_warning { color:#8a6d3b; background:#fcf8e3; border:1px solid #faebcc; }
+.boom_error { background:#f2dede; color:#a94442;; border:1px solid #ebccd1; }
+.boom_success { color:#3c763d; background:#dff0d8; border:1px solid #d6e9c6; }
+.boom_neutral { color:#31708f; background:#d9edf7; border:1px solid #bce8f1; }
+
+/* admin box */
+.sp_box { background:#ededed; color:#666; }
+.sp_icon { background:#03add8; color:#000; }
+
+/* special log */
+.topic_log { background:#000;
+
+color:#a62525;
+ font-size: 16px;
+    font-weight: bold;
+    color: #277ecc;
+    font-family: calibri;
+border-radius: 10px;
+
+background-color: rgb(234 245 255);
+
+background-image: url(https://i.imgur.com/eqGvZEC.gif); }
+.seen { background:#ffe6f2; color:#330019; }
+
+/* custom */
+.login_sub_text, .login_title_text, .login_register_text  { text-shadow:1px 1px 1px #666; }
+
+/* scrollbar */
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:#bdadc129; }
+::-webkit-scrollbar-thumb { background:#de50c1; }
+::-webkit-scrollbar-thumb:hover { background:#26002e; }
