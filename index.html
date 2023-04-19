@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
+    <script defer src="/script.js"></script>
+    <title>Boattrip | Payment</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <li ><a href="/"><i class="fa fa-home"></i><br>Home</a></li>
+                <li><a href="/searchList?cityId=CY11GYJSTl4aT9qTwNHlp&adults=2&children=0&date=2022-06-29"><i class="fa fa-magnifying-glass"></i><br>Explore</a></li>
+                <li><a href="#"><i class="far fa-heart"></i><br>Trips</a></li>
+                <li><a href="#"><i class="far fa-user"></i><br>Profile</a></li>
+            </nav>
+            <!-- <span class="close-btn"><i class="fa-solid fa-angles-left"></i></span> -->
+            <div class="close-btn fa-solid fa-angles-left"></div>
+        </header>
+        <!-- <span class="open-btn"><i class="fa-solid fa-angles-right"></i></span> -->
+        <div class="open-btn fa-solid fa-angles-right"></div>
+        <main>
+            <div class="payment-form">
+                <h2>Payment details</h2>
+                <h3><span>Merchant Name:</span> Hello Albania E-commerce</h3>
+                <form>
+                    <div class="holder-name-wrapper">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="text" placeholder="Cardholder Name, Surname">
+                    </div>
+                    <div class="card-number-wrapper">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <input class="card-number" type="text" inputmode="numeric" pattern="[0-9]*"
+                            placeholder="Card Number" maxlength="19">
+                        <input class="expiration-date" type="text" inputmode="numeric" pattern="[0-9]*"
+                            placeholder="MM/YY" maxlength="5">
+                        <input class="cvc2-code" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="CVC2"
+                            maxlength="3">
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                </form>
+                <div class="cards-logo">
+                    <img src="assets/cards-logo.svg" alt="">
+                </div>
+            </div>
+            <div class="recipient">
+                <div>
+                    <img src="assets/ticket-icon.svg" alt="Ticket Icon">
+                    <h3>Boat Tours</h3>
+                    <p>Daily tour guide<br>1Day, adventure tour guide</p>
+                </div>
+                <div>
+                    <hr>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Total due</th>
+                                <th>2500 ALL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Travellers</td>
+                                <td>2500 ALL</td>
+                            </tr>
+                            <tr>
+                                <td>Taxes & Fees</td>
+                                <td>Included</td>
+                            </tr>
+                            <tr>
+                                <td>Rates are quoted in ALL Installment Number: &nbsp;&nbsp;&nbsp;</td>
+                                <td>No Installment</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="bkt-logo">
+                <img src="assets/BKT-logo.svg" alt="BKT Logo">
+            </div>
+        </main>
+        <footer>
+            <div>Copyright © 2021 Hello Albania. All rights reserved</div>
+            <div class="links-container">
+                <a href="/">Home</a>
+                <a href="/">About</a>
+                <a href="https://app.boattrips.al">Partners</a>
+                <a href="https://terms.boattrips.al">Terms</a>
+            </div>
+            <div class="social-links-container">
+                <a href="https://www.facebook.com/HelloAlbaniaTravel/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://g.page/r/CXEXq9dfzm9JEBA"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.instagram.com/vloraboattrips/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
