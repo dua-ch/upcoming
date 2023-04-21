@@ -1,0 +1,39 @@
+@media (max-width:1024px){
+    .big1 {
+        font-size: 70px;
+    }
+
+    .big2 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:767px){
+    
+    .simple-text-block .text-block{
+        width: 100%;
+    }
+
+    .simple-text-block {
+        gap: 30px;
+    }
+
+    .big1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:640px){
+    .rating-values {
+         gap: 20px;
+        flex-direction: column;
+    }
+
+    .stars{
+        flex-wrap: wrap;
+    }
+
+    .rating-wrap {
+        padding: 30px 25px;
+    }
+}
