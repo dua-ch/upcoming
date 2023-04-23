@@ -848,6 +848,82 @@ opacity: 1;
     margin-bottom: 20px
 }
 
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 29px;
+    border-radius: 20px;
+    background: #22b6e7;
+    transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    vertical-align: middle;
+    cursor: pointer;
+    padding-left: 7px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.switch::before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    width: 25px;
+    height: 26px;
+    background: #fff;
+    border-radius: 50%;
+    transition: right 0.28s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.switch:active::before {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.28), 0 0 0 20px rgba(128,128,128,0.1);
+}
+input:checked + .switch {
+    background: #dfd9ea;
+}
+input:checked + .switch::before {
+    right: 27px;
+    background: #fafafa;
+}
+input:checked + .switch:active::before {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.28), 0 0 0 20px rgba(0,150,136,0.2);
+}
+
+.switch::after{
+    content:"°C";
+    right: 6px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    top: 2px;
+}
+
+input:checked + .switch.add::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.weather {
+ display: flex;
+ justify-content: space-between;
+ column-gap: 10px
+}
+
+.weather-list .hide{
+    display: none;
+}
+
+.weather-list.active .hide{
+    display: block;
+}
+.weather-list.active .show{
+    display: none;
+}
+
+
+
 @media (max-width:900px) {
     .small-boxes {
         gap: 0;
