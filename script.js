@@ -50,8 +50,13 @@ cardNumberContainer.onkeyup = function (e) {
   let target = e.srcElement;
   let maxLength = parseInt(target.attributes["maxlength"].value, 10);
   let myLength = target.value.length;
+  let i = 0;
   if (myLength >= maxLength) {
-    let next = target;
+    let next = target
+    if(i == 0){
+      next  = target.parentElement;
+    } 
+    i++;
     while ((next = next.nextElementSibling)) {
       if (next == null) break;
       if (next.tagName.toLowerCase() == "input") {
