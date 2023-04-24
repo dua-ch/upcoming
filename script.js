@@ -8,18 +8,14 @@ closeBtn.onclick = () => {
   //   .forEach((li) => (li.style.width = 0));
   // document.querySelector("main").style.margin = "50px";
   document.querySelector("header").style.display = "none";
-  document.querySelector(".container").style.gridTemplateColumns = "1fr";
-  document.querySelector("main").style.marginRight = "20px";
-  document.querySelector("main").style.marginLeft = "20px";
+  document.querySelector("main").style.width = "100%";
   document.querySelector(".open-btn").style.display = "flex";
 };
 
 const openBtn = document.querySelector(".open-btn");
 openBtn.onclick = () => {
   document.querySelector("header").style.display = "block";
-  document.querySelector(".container").style.gridTemplateColumns = "96px 1fr";
-  document.querySelector("main").style.marginRight = "0";
-  document.querySelector("main").style.marginLeft = "0";
+  document.querySelector("main").style.width = "calc(100% - 88px)";
   document.querySelector(".open-btn").style.display = "none";
 };
 

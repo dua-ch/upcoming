@@ -691,7 +691,7 @@ ul.marker li:before {
 }
 
 .section-text-with-img .sect-text-with-img {
-    width: 350px
+    max-width: 350px
 }
 
 .tab-panel {
@@ -923,6 +923,14 @@ input:checked + .switch.add::after {
 }
 
 
+.stars-wrap{
+    display: flex;
+}
+
+.tab-panel .slide-content{
+    padding: 0;
+}
+
 
 @media (max-width:900px) {
     .small-boxes {
@@ -932,6 +940,34 @@ input:checked + .switch.add::after {
 
     .small-boxes .colored-box{
         width: 100%;
+    }
+
+    .rating-values {
+        margin-top: 77px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .two-column-layout {
+        flex-direction: column;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .col-left {
+        width:100%;
+    }
+
+    .col-right {
+        max-width: 100%;
+    }
+
+    .pad-70 {
+        padding: 40px 0;
+    }
+
+    .socials{
+        margin-bottom: 30px;
     }
 
 }
@@ -1002,6 +1038,85 @@ input:checked + .switch.add::after {
     .zigzag-columns .zigzag-text {
         width: 100%;
     }
+
+    .boat-slider .swiper-slide {
+        padding: 25px;
+        height: auto;
+    }
+}
+
+@media (max-width:600px){
+    .zigzag-block .zig-cont p {
+        max-width: 100%;
+    }
+
+    .zigzag-block {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .zigzag-block .zig-cont {
+        width: 100%;
+    }
+
+    .rating-wrap {
+        padding: 20px 25px;
+        margin: 30px auto 40px;
+    }
+
+    .stars {
+        margin-bottom: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rating-values {
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .left-box h4 , .left-box h5 {
+        text-align: center;
+    }
+
+    .left-box .stars {
+        margin: 10px 0 30px;
+    }
+
+    .img-with-text{
+        flex-direction: column;
+    }
+
+    .img-with-text .text{
+        text-align: center;
+    }
+
+    .simple-text-block .text-block {
+        width: 100%;
+    }
+
+    .simple-text-block {
+        flex-direction: column;
+    }
+
+    .col-right ul {
+        padding: 10px 20px 30px 29px;
+    }
+
+    .tab-content {
+        padding: 52px 0 0;
+    }
+
+    .tabs li a {
+        padding: 6px 15px;
+        margin-right: 13px;
+    }
+
+    .slider-arrows>div {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
 }
 
 
@@ -1045,6 +1160,8 @@ input:checked + .switch.add::after {
     .h1 {
         font-size: 36px;
     }
+
+
 }
 
 @media (max-width:767px) {
@@ -1052,5 +1169,23 @@ input:checked + .switch.add::after {
     h1,
     .h1 {
         font-size: 30px;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .big1 {
+        font-size: 50px;
+    }
+
+    .big2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    h2, .h2 {
+        font-size: 28px;
+        line-height: 35px;
     }
 }
