@@ -238,6 +238,11 @@ h5 {
     margin: 0 auto;
 }
 
+.big-container{
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
 .team-img {
     position: relative;
     padding-bottom: 100%;
@@ -930,6 +935,219 @@ input:checked + .switch.add::after {
 .tab-panel .slide-content{
     padding: 0;
 }
+
+/* lifestyle page */
+
+.lifestylepage .big-container{
+    padding: 70px 20px;
+}
+
+.main-lifestyle {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.main-lifestyle .lifestyle-img {
+    width: calc(100% - 470px);
+}
+
+.lifestyle-img {
+    position: relative;
+    padding-bottom: 40%
+}
+
+.lifestyle-img img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover
+}
+
+.main-lifestyle .lifestyle-content {
+    max-width: 470px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.lifestyle-content h5 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #a3aeb2;
+    margin-bottom: 20px
+}
+
+.lifestyle-content span {
+    font-weight: normal;
+    color: #a3aeb2;
+    margin: 10px 0;
+    display: block
+}
+
+.lifestyle-content h2 a:hover , .lifestyle-content h3 a:hover {
+    color: #5ca6d1
+}
+
+.lifestyle-content a {
+    transition: 0.3s all
+}
+   
+
+.lifestyle-blogs {
+    margin: 30px -20px 30px;
+    width: calc(100% + 40px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: calc(33.33% - 40px);
+    margin: 0 20px 30px;
+}
+
+.blog-box .lifestyle-content h5 {
+    margin: 10px 0
+   }
+   
+   .blog-box .lifestyle-content h3 {
+   font-weight: 500
+   }
+   
+   .blog-box .lifestyle-img{
+    padding-bottom: 60%;
+   }
+
+   .single-img img{
+    width: 100%;
+   }
+   
+   .single-img{
+   margin: 20px 0 40px
+   }
+   
+   
+   .lifestyle-single .big-container{
+    max-width: 1110px
+   }
+   
+   .single-main-content{
+    display: flex;
+    gap: 50px
+   }
+   
+   .single-main-content .col-left{
+    max-width: 350px;
+    width: 100%;
+   }
+   
+   .single-main-content .col-left  .blog-box{
+    width: 100%;
+    margin: 0 0 20px
+   }
+   
+   .single-main-content .col-right{
+    width: calc(100% - 350px);
+    max-width: 100%;
+   }
+   
+   .col-right p  , .col-right h3 , .col-right h4 , .col-right ul , .col-right h5{
+    margin: 10px 0;
+    padding: 0;
+   }
+   
+   .col-right h2 , .col-right h3{
+    margin: 30px 0;
+    padding: 0;
+   }
+   
+   .col-right ul , .col-right ol {
+    padding-left: 20px;
+    margin: 20px 0
+   }
+   
+   @media (max-width:900px) {
+       .main-lifestyle {
+           flex-direction: column
+       }
+
+       .main-lifestyle .lifestyle-img {
+           width: 100%;
+           padding-bottom: 60%;
+           min-height: 220px
+       }
+
+       .main-lifestyle  .lifestyle-content {
+           max-width: 100%;
+           padding: 40px 0 0;
+       }
+
+       .lifestyle-content span {
+           margin: 7px 0 0
+       }
+
+       .blog-box .lifestyle-img {
+        padding-bottom: 42%;
+        min-height: 180px;
+    }
+
+    .single-main-content {
+        flex-direction: column-reverse;
+    }
+
+    .single-main-content .col-left {
+        max-width: 100%;
+    }
+
+    .single-main-content .col-right {
+        width: 100%;
+    }
+   }
+
+
+
+   @media (max-width:1024px){
+    .blog-box {
+        width: calc(50% - 40px);
+    }
+    
+    .single-main-content {
+        gap: 30px;
+    }
+   }
+
+   @media (max-width:767px){
+    .blog-box {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .lifestyle-blogs{
+        margin: 30px 0 0;
+        width: 100%;
+    }
+
+
+    .lifestylepage .big-container {
+        padding: 50px 20px;
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:900px) {
